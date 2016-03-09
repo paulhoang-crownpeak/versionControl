@@ -16,4 +16,7 @@ git checkout -b <branchname>   	//create and move head to newly created branch. 
 git checkout <branchname>	//move head to branch
 git branch -vv			//find the remote branch repo that the current branch is tracking
 git log
- 	
+git reset --soft HEAD^		//undo last thing?
+
+git config user.name General-Meow
+git config user.email spl.ivalis@gmail.com 	
