@@ -5,7 +5,7 @@ Git Commands
 git init
 git clone <location> .
 git commit -m ""
-git pull --rebase <remoteRepoName> <branchname>
+git pull --rebase <remoteRepoName> <branchname>		//fetch from repo and branch, pull(merge) those changes into the currenct branch replay the local committed changes on top
 git push <remoteRepoName> <branchname>
 git remote -vv
 git remote add <remoteRepoName> <location>
@@ -20,3 +20,6 @@ git reset --soft HEAD^		//undo last thing?
 
 git config user.name General-Meow
 git config user.email spl.ivalis@gmail.com 	
+
+git checkout <file>		//undo changes to a file
+
