@@ -24,4 +24,5 @@ git config user.name General-Meow
 git config user.email spl.ivalis@gmail.com 	
 
 git checkout <file>		//undo changes to a file
-
+git merge <branchname>		//merge branchname into the current branch
+git mergetool			//start the configured merge too to resolve conflicts
