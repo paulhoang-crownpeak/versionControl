@@ -11,3 +11,10 @@ hg merge <branchToMergeIn>
 hg branch <branchName>
 hg co -r -C .
 hg rollback
+
+
+
+in hgrc
+[main]
+default = https://hgrepo/reponame
+myfork = https://anotherRepo/reponame
