@@ -1,7 +1,7 @@
-Mercurial commands
+#Mercurial commands
 
-hg init
-hg add
+- hg init
+- hg add
 hg commit -m 'blah'
 hg pull
 hg push
