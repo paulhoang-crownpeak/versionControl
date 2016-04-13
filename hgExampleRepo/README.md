@@ -13,7 +13,8 @@
 - hg co -r -C .
 - hg rollback
 - hg graft -r \<rev\>
-
+- hg tag \<myTagName\>
+- hg tag -l
 
 
 ### in hgrc
