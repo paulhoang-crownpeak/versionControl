@@ -1,6 +1,7 @@
 #Mercurial commands
 
 - hg init
+- hg clone \<remoteLocation\>
 - hg add
 - hg commit -m 'blah'
 - hg pull
