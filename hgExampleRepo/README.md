@@ -8,6 +8,7 @@
 - hg up -r \<rxxx\>
 - hg up
 - hg merge \<branchToMergeIn\>
+- hg merge //merge tips of the current branch
 - hg branch \<branchName\>
 - hg co -r -C .
 - hg rollback
