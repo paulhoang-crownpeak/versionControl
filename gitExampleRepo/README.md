@@ -21,9 +21,11 @@ This directory has an initialized git repository. Play around here if you wish
 - git log
 - git checkout \<file\>		//undo changes to a file
 - git merge \<branchname\>		//merge branchname into the current branch
+- git rebase \<branch\> //replay any unpushed commits in current branch on top of the \<branch\>
 - git mergetool			//start the configured merge too to resolve conflicts
 - git tag //view tags
 - git tag -a \<tagRev\> -m "my version" //annotated tag
+- git cherry-pick \<rev\> //cherry pick commit into current branch
 
 ###change settings for the local repo...
 - git config user.name General-Meow
