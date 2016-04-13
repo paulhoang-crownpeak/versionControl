@@ -11,7 +11,7 @@
 - hg merge \<branchToMergeIn\>
 - hg merge //merge tips of the current branch
 - hg branch \<branchName\>
-- hg co -r -C .
+- hg co -r -C . //revert everything to last commit
 - hg rollback
 - hg graft -r \<rev\>
 - hg tag \<myTagName\>
