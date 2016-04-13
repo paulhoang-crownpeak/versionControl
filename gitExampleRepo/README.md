@@ -26,6 +26,11 @@ This directory has an initialized git repository. Play around here if you wish
 - git tag //view tags
 - git tag -a \<tagRev\> -m "my version" //annotated tag
 - git cherry-pick \<rev\> //cherry pick commit into current branch
+- git stash
+- git stash list
+- git stash pop
+- git stash apply stash@{ID}
+
 
 ###change settings for the local repo...
 - git config user.name General-Meow
