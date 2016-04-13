@@ -14,7 +14,9 @@
 
 
 
-- in hgrc
-- [main]
-- default = https://hgrepo/reponame
-- myfork = https://anotherRepo/reponame
+### in hgrc
+[main]
+
+default = https://hgrepo/reponame
+
+myfork = https://anotherRepo/reponame
