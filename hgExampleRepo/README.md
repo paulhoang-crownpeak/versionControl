@@ -7,10 +7,11 @@
 - hg push
 - hg up -r \<rxxx\>
 - hg up
-- hg merge '<branchToMergeIn>'
-- hg branch '<branchName>'
+- hg merge \<branchToMergeIn\>
+- hg branch \<branchName\>
 - hg co -r -C .
 - hg rollback
+- hg graft -r \<rev\>
 
 
 
