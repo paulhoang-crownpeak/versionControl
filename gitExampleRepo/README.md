@@ -15,6 +15,7 @@ This directory has an initialized git repository. Play around here if you wish
 - git reset --hard \<remoteRepoName\>/\<branchname\> //reset current branch to this
 - git reset --soft HEAD^		//undo last commit but keep the changes this is like hg rollback
 - git checkout -b \<branchname\>   	//create and move head to newly created branch. shorthand for git branch <branchname>; 
+- git checkout -b \<branchname\> \<remoteLocation\>/\<branchname\>
 - git checkout \<branchname\>	//move head to branch
 - git branch -vv			//find the remote branch repo that the current branch is tracking
 - git branch -d \<branchname\>	//delete branch
