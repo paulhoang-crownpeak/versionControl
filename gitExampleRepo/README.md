@@ -19,6 +19,7 @@ This directory has an initialized git repository. Play around here if you wish
 - git checkout \<branchname\>	//move head to branch
 - git branch -vv			//find the remote branch repo that the current branch is tracking
 - git branch -d \<branchname\>	//delete branch
+- git branch <currentBranchYouWantToDoTrackingOn\> -u <remote\>/<branch\>
 - git log
 - git checkout \<file\>		//undo changes to a file
 - git merge \<branchname\>		//merge branchname into the current branch
