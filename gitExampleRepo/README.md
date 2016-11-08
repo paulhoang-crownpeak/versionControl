@@ -6,6 +6,7 @@ This directory has an initialized git repository. Play around here if you wish
 - git init
 - git clone \<locationOfRemoteRepo\> .
 - git commit -m ""
+- git commit --amend          //change the last commit
 - git pull --rebase <remoteRepoName> <branchname>		//fetch from repo and branch, pull(merge) those changes into the currenct branch replay the local committed changes on top
 - git push \<remoteRepoName\> \<branchname\>
 - git remote -vv
